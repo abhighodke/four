@@ -1,37 +1,31 @@
 // src/clientData.js
 const clientData = {
-    headerInitials: "KS", // Header Initials
-    heroTagline: "Kathy Shippen Realty", // Hero Tagline
-    agentName: "Kathy Shippen",
-    aboutMeShort: "I specialize in finding perfect homes for buyers and sellers, including investors and veterans. My expertise and dedication to exceptional service guide you to the best decisions. Let's find your ideal home together.", // AboutMe Short Description
-    aboutMeDetailed: `Licensed in 1994, I began my career selling "New Homes" in Summerlin and was awarded "Sales Agent of the Year" for 1995 in my category. Later moving into Residential Resale. I currently have my license with Realty ONE Group.
+    headerInitials: "CA",
+    heroTagline: "Crystal Akers Realty",
+    agentName: "Crystal Akers",
+    aboutMeShort: "I specialize in finding perfect homes for buyers and sellers, including investors and veterans. My expertise and dedication to exceptional service guide you to the best decisions. Let's find your ideal home together.",
+    aboutMeDetailed: `It is my passion to assist clients with reaching their goal of owning a home or selling their current home to find a new one. It is important to me that my clients find the ideal home to match their needs and their budget. Also, I have helped many investors find the perfect property to complete their investment portfolio. 
 
-My background is in the entertainment field, I danced professionally in some major production shows as well as in movies like "Staying Alive" with John Travolta, and MTV music videos and commercials.
+With my knowledge and experience I provide my clients accurate and complete detailed information so they can make the best decisions. Also, with being certified to help our Veterans and their families in finding a home and utilizing their full VA eligibility. Allow me to assist you with your real estate needs.
 
-I assist the local artists and technical crews here in Las Vegas, along with their friends and families.
-
-Home buying can be stressful, but with my 25+ years of experience, I can make it a smooth transition. Let me help you find your dream home! Or... Sell your most valuable asset!`, // AboutMe Detailed Description
-    testimonials: [
-        { quote: "Kathy Shippen was amazing to work with, very helpful and professional, always prompt and offered great advice. As a first home buyer, Kathy made our experience pleasurable and stress-free. I highly recommend her to anyone buying.", author: "Phil" },
-        { quote: "Kathy is a sweet lady to work with as a realtor in finding our current home. She was always available to look at homes and made us feel really comfortable taking our time to make sure we found the one we wanted. She never swayed us one way or the other so we had our own timeline to find what was important to us. Thank you, Kathy!", author: "Denise" },
-        { quote: "Big shout out to my dear friend Kathy Shippen with Realty One Group... Great Job!!! Thank you SO much for your guidance, knowledge, and hard work in listing and selling our house and downsizing to our new townhome. You made it easy and seamless. Rick and I highly recommend you!!!!!", author: "Sharon & Rick" },
-        { quote: "I have no regret working with Kathy Shippen. I would work with her any time in the future, and I recommend her to anyone. She was proactive, knowledgeable, and very kind. I gave her some very strict and challenging deadlines to sell my home and she made it happen before time! She exceeded all of my expectations. She supported the negotiation with great insight based on an extended background in the real estate industry.", author: "Marc Antoine" },
-        { quote: "Kathy Shippen has handled 8 residential purchases for my husband & myself. She is very professional, honest, detail-oriented, plus knowledgeable in real estate rules and procedures. She is skilled at handling forms and responses in a prompt timely manner. I would definitely recommend Kathy for your next purchase as she always goes the 'extra mile' for her clients!", author: "Deb D." }
-    ], // Testimonials
-    footerTagline: "Your Trusted Partner in Luxury Real Estate", // Footer Tagline
-    email: "kathyshippen@outlook.com", // Email
-    address: "10750 W Charleston Blvd #180 Las Vegas, NV 89135-1043", // Address
-    phone: "(702)480-4954", // Phone Number
-    footerDescription: "Kathy Shippen Realty is committed to delivering the highest standard of real estate services. Whether you're buying, selling, or investing in luxury properties, we offer unparalleled expertise and a personalized approach to meet your needs.", // Footer Description
+Customer Service excellence is our Passion!`,
+    testimonials: [{"quote": "Working with Crystal Akers was a game-changer for us. Her deep knowledge of the New York market and personalized approach made finding our dream home effortless. Highly recommended for anyone seeking a top-notch real estate experience.", "author": "John and Emily R."}, {"quote": "Crystal Akers provided exceptional service from start to finish. The teams professionalism and attention to detail ensured that our property sale was smooth and successful. We could not have asked for a better partner in real estate.", "author": "Michael S."}, {"quote": "The dedication and expertise of Crystal Akers were evident throughout our home-buying journey. Her ability to understand our needs and navigate the competitive market made the process enjoyable and stress-free. We are thrilled with our new home!", "author": "Sarah and David L."}, {"quote": "Crystal Akers and Her team are truly outstanding. Their market knowledge, responsiveness, and client-focused approach set them apart. We have bought and sold multiple properties with them, and each experience has been exceptional.", "author": "Jessica and Mark T."}, {"quote": "If you are looking for a real estate agent who goes above and beyond, Crystal Akers is the one. Her dedication to finding the perfect property and ensuring a smooth transaction is unmatched. We are incredibly satisfied with the service we received.", "author": "Laura K."}],
+    footerTagline: "Your Trusted Partner in Luxury Real Estate",
+    email: "",
+    address: "Prattville, Alabama, USA",
+    phone: "",
+    footerDescription: `Crystal Akers Realty is committed to delivering the highest standard of real estate services. Whether you're buying, selling, or investing in luxury properties, we offer unparalleled expertise and a personalized approach to meet your needs.`,
     socialMediaLinks: {
-        facebook: "",
+        facebook: "https://www.facebook.com/csakers3/",
         Instagram: "",
         linkedin: "",
-    }, // Social Media Links
+    },
     contactDetails: {
-        email: "kathyshippen@outlook.com",
-        phone: "(702)480-4954",
-    }, // Contact Details
+        email: "",
+        phone: "",
+    },
+    website: "",
+    dp: "https://scontent-sjc3-1.xx.fbcdn.net/v/t39.30808-6/456873007_8831440243549982_1293178533016074158_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=BMkdRNnRA9gQ7kNvgHBB_XL&_nc_ht=scontent-sjc3-1.xx&oh=00_AYDCnTvrx5_nUI9cEqHDuqJSpGI8FL7DGj5f8Ps0oR4Skw&oe=66D7CE8F" // Agent image URL
 };
 
 export default clientData;
